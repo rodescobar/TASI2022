@@ -29,7 +29,7 @@ npx create-react-app nome_aplicacao
 - Pesquisa em tabela não finalizado
 
 
-### Programas necessários para as aulas
+# Programas necessários para as aulas
 - VSCODE ide free para criação de códigos
 - NodeJS
 - Navegador Web
