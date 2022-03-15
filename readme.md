@@ -1,7 +1,7 @@
 
 # Tópicos Avançados em SI
 
-React
+React DOM
 
 ## Aula 01 - 21/02/2022
 - Conhecendo o React
