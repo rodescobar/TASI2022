@@ -1,10 +1,13 @@
 import React from 'react'
 
-import Aula0202 from './Aula0202'
+import Exemplo01 from './aula0301/exemplo'
+import Exemplo02 from './aula0301/exemplo02'
 
 const App = () => {
     return (
-        <Aula0202 />
+        <div>
+            <Exemplo02 />
+        </div>
     )
 }
 
