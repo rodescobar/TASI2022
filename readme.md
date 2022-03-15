@@ -19,10 +19,14 @@ npx create-react-app nome_aplicacao
 - Variáveis de estado (state)
 
 ## Aula 03 - 14/03/2022
+###Exemplo 01
 - Montando tabela de um arquivo de origem JSON
 - Pesquisando texto em um arquivo JSON
+
+###Exemplo 02
 - Função .filter()
 - Diferenças entre .filter() e .map()
+- Pesquisa em tabela não finalizado
 
 
 ### Programas necessários para as aulas
