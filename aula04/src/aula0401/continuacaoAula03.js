@@ -15,7 +15,8 @@ const Exemplo01 = () => {
     const handleClick = () => {
         //Retorna somente o objeto que obedecer a clausula do indexOf
         var fil = users.filter( objeto => {
-            return objeto.name.indexOf(pesquisar) > -1
+            var nome = objeto.name.toUpperCase()
+            return nome.indexOf( pesquisar.toUpperCase() ) > -1
         })
 
         setUserTabela( fil )
