@@ -28,6 +28,10 @@ npx create-react-app nome_aplicacao
 - Diferenças entre .filter() e .map()
 - Pesquisa em tabela não finalizado
 
+## Aula 04 - 21/03/2022
+- Término da explicação de .filter()
+- Término da pesquisa em tabela
+- Exercício (conteúdo em [https://github.com/rodescobar/TASI2022/tree/main/aula04/src/exercicio])
 
 # Programas necessários para as aulas
 - VSCODE ide free para criação de códigos
