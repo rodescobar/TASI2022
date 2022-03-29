@@ -1,11 +1,14 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 
-import Form from './form'
+import Form from './form2'
 
 const Aula0501 = () => {
     const [ dadosTabela, setDadosTabela ] = useState([])
     const [ tabelaOriginal , setTabelaOriginal ] = useState( [])
+
+    const [ mostraForm, setMostraForm ] = useState( false )
+    const [ comment, setComment ] = useState([])
 
     const handleText = ( e ) => {
         var valor = e.target.value
@@ -31,7 +34,9 @@ const Aula0501 = () => {
     }
 
     const handleUpdate = ( objeto ) => {
-        console.log( objeto )
+        //console.log( objeto )
+        setMostraForm( !mostraForm )
+        setComment( objeto )
     }
 
     var tabela = dadosTabela.map( objeto => {
@@ -65,7 +70,7 @@ const Aula0501 = () => {
                     placeholder='Pesquisar'
                     onChange={ (e) => handleText( e )}
             />
-            <Form ativo={ true }/>
+            <Form ativo={ mostraForm } comentario={ comment } />
             <table border="1">
                 <tr>
                     <td>ID</td>

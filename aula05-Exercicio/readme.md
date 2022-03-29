@@ -1,0 +1,22 @@
+# Exercício Aula 05
+
+## Sobre
+Entrega: 02/04/2022
+
+E-mail: rodrigo.noescobar@gmail.com
+
+Pontos: 1,00 ponto na média
+
+## O que fazer?
+
+Crie um componente com uma caixa *input*, um *button* e uma tabela.
+Quando o usuário preencher o input com o *postId* de um comentário e clicar no button, você deverá buscar todos os comentários para o id do post informado.
+
+Através do site 
+```
+https://jsonplaceholder.typicode.com/ 
+```
+
+## Não entendi.
+
+Assista essa aula no horário entre 21:40 até às 21:55, que é o momento que eu explico.
