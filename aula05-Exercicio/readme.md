@@ -14,7 +14,7 @@ Quando o usuário preencher a caixa de texto informando o o *postId* de um comen
 
 Através do site 
 ```
-https://jsonplaceholder.typicode.com/ 
+https://jsonplaceholder.typicode.com/comments?postId=1
 ```
 
 Quando receber os dados, alimente a tabela (aulas 04 e 05)
