@@ -9,13 +9,15 @@ Pontos: 1,00 ponto na média
 
 ## O que fazer?
 
-Crie um componente com uma caixa *input*, um *button* e uma tabela.
-Quando o usuário preencher o input com o *postId* de um comentário e clicar no button, você deverá buscar todos os comentários para o id do post informado.
+Crie um componente com uma caixa de texto, um botão procurar e uma tabela que receberá todos os comentários.
+Quando o usuário preencher a caixa de texto informando o o *postId* de um comentário, e clicar no botão procurar, você deverá buscar todos os comentários para o id do post informado.
 
 Através do site 
 ```
 https://jsonplaceholder.typicode.com/ 
 ```
+
+Quando receber os dados, alimente a tabela (aulas 04 e 05)
 
 ## Não entendi.
 
