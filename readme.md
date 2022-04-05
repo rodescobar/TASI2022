@@ -33,6 +33,29 @@ npx create-react-app nome_aplicacao
 - Término da pesquisa em tabela
 - Exercício (conteúdo em [https://github.com/rodescobar/TASI2022/tree/main/aula04/src/exercicio])
 
+## Aula 05 - 28/03/2022
+- Trabalhando com axios
+- Buscando informações no jsonplaceholer com axios
+
+```
+npm install --save axios
+```
+
+## Aula 05 - 28/03/2022 - Exercício
+- Exercício valendo 1,00 ponto na média.
+- Data de entrega 02/04/2022
+- Pode ser entregue até o dia 26/06/2002, VALENDO SOMENTE 0,5 PONTO
+- [Link](https://github.com/rodescobar/TASI2022/tree/main/aula05-Exercicio)
+
+## Aula 06 - 04/04/2022
+- Conhecendo a API da Marvel
+- Entendendo campos necessários para conexão
+- Trabalhando com variáveis globais .ENV
+- [Exercício de fixação](https://github.com/rodescobar/TASI2022/tree/main/aula06)
+```
+npm install --save js-md5
+```
+
 # Programas necessários para as aulas
 - VSCODE ide free para criação de códigos
 - NodeJS
