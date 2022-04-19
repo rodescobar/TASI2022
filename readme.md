@@ -56,6 +56,22 @@ npm install --save axios
 npm install --save js-md5
 ```
 
+## Aula 07 - 11/04/2022
+- terminando exercício da API da Marvel
+- Trabalhando com Rotas
+- Iniciando com Material-ui
+
+## Aula 08 - 18/04/2022
+- Material-UI
+- ThemeProvider
+- Componentes (Paper, Typography, Button, Switch e Checkbox)
+
+## Aula 09 - 25/04/2022
+- Material-UI
+- Cards
+- Link com react-route
+
+
 # Programas necessários para as aulas
 - VSCODE ide free para criação de códigos
 - NodeJS
