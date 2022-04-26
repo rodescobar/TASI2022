@@ -68,9 +68,12 @@ npm install --save js-md5
 
 ## Aula 09 - 25/04/2022
 - Material-UI
+- Autocomplete, X-data-grid
+
+## Aula 10 - 02/05/2022
+- Material-UI - Tradução para BR
 - Cards
 - Link com react-route
-
 
 # Programas necessários para as aulas
 - VSCODE ide free para criação de códigos
