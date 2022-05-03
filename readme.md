@@ -75,6 +75,14 @@ npm install --save js-md5
 - Cards
 - Link com react-route
 
+## Aula 10 - 02/05/2022 - Exercício
+- Exercício valendo 2,00 ponto na média.
+- Data de entrega 02/0452022
+
+## Aula 11 - 09/05/2022
+- Enviando token através do axios
+- Utilizando localStorage para armazenamento de token
+
 # Programas necessários para as aulas
 - VSCODE ide free para criação de códigos
 - NodeJS
