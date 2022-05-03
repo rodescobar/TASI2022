@@ -76,7 +76,7 @@ npm install --save js-md5
 - Link com react-route
 
 ## Aula 10 - 02/05/2022 - Exercício
-- Exercício valendo 2,00 ponto na média.
+- Exercício valendo 2,00 pontos na média.
 - Data de entrega 02/0452022
 - [Link](https://github.com/rodescobar/TASI2022/tree/main/aula10-exercicio)
 
