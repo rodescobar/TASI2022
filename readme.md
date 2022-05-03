@@ -78,6 +78,7 @@ npm install --save js-md5
 ## Aula 10 - 02/05/2022 - Exercício
 - Exercício valendo 2,00 ponto na média.
 - Data de entrega 02/0452022
+- [Link](https://github.com/rodescobar/TASI2022/tree/main/aula10-exercicio)
 
 ## Aula 11 - 09/05/2022
 - Enviando token através do axios
