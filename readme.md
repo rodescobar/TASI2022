@@ -81,8 +81,24 @@ npm install --save js-md5
 - [Link](https://github.com/rodescobar/TASI2022/tree/main/aula10-exercicio)
 
 ## Aula 11 - 09/05/2022
-- Enviando token através do axios
-- Utilizando localStorage para armazenamento de token
+- Trabalhando com REST/API
+- Execução de testes com backend através do ThunderClient
+- Criação de Login / Registrar usuário
+- Armazenamento de Token em localStorage
+
+## Aula 12 - 16/05/2022
+- Adicionando validação de usuário com *React-Router-Dom*
+- Utilizando a opção *header* do axios
+- Trabalhando com .ENV para *base url*
+- Trabalhando com CRUD de produtos
+- Criando API em axios para adição automatica de *headers*
+
+# Backend utilizado em aula
+```http
+https://backendaula.herokuapp.com
+```
+[Código fonte](https://github.com/rodescobar/backendAula)
+
 
 # Programas necessários para as aulas
 - VSCODE ide free para criação de códigos

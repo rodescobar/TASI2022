@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "d9ac8b41-35d1-4e35-b945-07886546f103",
+    "name": "Variaveis",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-05-09T22:42:01.926Z",
+    "modified": "2022-05-09T23:31:49.047Z",
+    "data": [
+      {
+        "name": "url",
+        "value": "https://backendaula.herokuapp.com"
+      },
+      {
+        "name": "cliente",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjoicm9kcmlnbyIsImlhdCI6MTY1MjEzODcwNywiZXhwIjoxNjUyMjI1MTA3fQ.kPIhNdkzz20CWaSGxlNnYexbD1sm50np_hGBisvXCpI"
+      }
+    ]
+  }
+]

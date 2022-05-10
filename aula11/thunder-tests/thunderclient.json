@@ -1,0 +1,131 @@
+[
+  {
+    "_id": "93125560-3ddf-412f-856c-18552effc077",
+    "colId": "4fc5edb0-2a87-45ed-8151-9179bfe2ee32",
+    "containerId": "",
+    "name": "Registrar usuário",
+    "url": "{{url}}/app/registrar",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-05-09T22:44:21.003Z",
+    "modified": "2022-05-10T00:48:21.962Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"usuario\": \"rodrigo\",\n    \"senha\": \"123456\",\n    \"confirma\": \"123456w\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "29c9bf00-bb37-43e2-b88f-4e77ebdc92d1",
+    "colId": "4fc5edb0-2a87-45ed-8151-9179bfe2ee32",
+    "containerId": "",
+    "name": "Login",
+    "url": "{{url}}/app/login",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-05-09T22:56:22.862Z",
+    "modified": "2022-05-10T00:44:17.010Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"usuario\": \"rodrigo\", \n    \"senha\": \"123456\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "48be4502-374e-4e96-8c8a-7a08441a25b4",
+    "colId": "b5411724-7266-45ac-970b-c619737d2b72",
+    "containerId": "",
+    "name": "Listar",
+    "url": "{{url}}/app/produtos",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-05-09T23:03:23.978Z",
+    "modified": "2022-05-09T23:32:05.173Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "{{cliente}}"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "4b267c3f-a1aa-4546-a5b9-38f4b214e920",
+    "colId": "b5411724-7266-45ac-970b-c619737d2b72",
+    "containerId": "",
+    "name": "Novo",
+    "url": "{{url}}/app/produtos",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-05-09T23:07:41.299Z",
+    "modified": "2022-05-09T23:12:21.742Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjoicm9kcmlnbyIsImlhdCI6MTY1MjEzNzY0OSwiZXhwIjoxNjUyMjI0MDQ5fQ.dWqbx65h3-CCWWxcbprMpLRjfKirDLIzxiVqlpDpx4I"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\r\n    \"nome\": \"Kadet 94 SE\",\r\n    \"quantidade\": 1,\r\n    \"preco\": 8000,\r\n    \"descricao\": \"DOC OK sem recibo NP\"\r\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "84b39b20-1f83-4efe-8246-f9a95382dcc0",
+    "colId": "b5411724-7266-45ac-970b-c619737d2b72",
+    "containerId": "",
+    "name": "Alterar",
+    "url": "{{url}}/app/produtos",
+    "method": "PUT",
+    "sortNum": 30000,
+    "created": "2022-05-09T23:22:08.917Z",
+    "modified": "2022-05-09T23:24:01.175Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjoicm9kcmlnbyIsImlhdCI6MTY1MjEzNzY0OSwiZXhwIjoxNjUyMjI0MDQ5fQ.dWqbx65h3-CCWWxcbprMpLRjfKirDLIzxiVqlpDpx4I"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"id\": \"6279a037bc19a0721a7123cf\",\n    \"usuario\": \"rodrigo\",\n    \"nome\": \"HONDA CITY\",\n    \"quantidade\": 1,\n    \"preco\": 60000,\n    \"descricao\": \"BEGE COR DE ABOBORA\"\n  }",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e69ebbbb-597c-42a3-8764-823839d08e1b",
+    "colId": "b5411724-7266-45ac-970b-c619737d2b72",
+    "containerId": "",
+    "name": "Alterar Copy",
+    "url": "{{url}}/app/produtos",
+    "method": "DELETE",
+    "sortNum": 40000,
+    "created": "2022-05-09T23:24:24.731Z",
+    "modified": "2022-05-09T23:25:09.262Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjoicm9kcmlnbyIsImlhdCI6MTY1MjEzNzY0OSwiZXhwIjoxNjUyMjI0MDQ5fQ.dWqbx65h3-CCWWxcbprMpLRjfKirDLIzxiVqlpDpx4I"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"id\": \"6279a09dbc19a0721a7123d3\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
