@@ -89,9 +89,13 @@ npm install --save js-md5
 ## Aula 12 - 16/05/2022
 - Adicionando validação de usuário com *React-Router-Dom*
 - Utilizando a opção *header* do axios
+- Trabalhando com CRUD de produtos ( Listar, Novo )
+
+## Aula 13 - 23/05/2022
 - Trabalhando com .ENV para *base url*
-- Trabalhando com CRUD de produtos
 - Criando API em axios para adição automatica de *headers*
+- Trabalhando com CRUD de produtos ( Altear e Excluir )
+
 
 # Backend utilizado em aula
 ```http
