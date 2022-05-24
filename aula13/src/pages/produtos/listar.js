@@ -20,8 +20,16 @@ const colunas = [
     { field: "nome", headerName: "Nome", width: 180 },
     { field: "preco", headerName: "Preço unitário" },
     { field: "quantidade", headerName: "Qtd Estoque" },
-    { field: "descricao", headerName: "Descrição", width: 230 }
+    { field: "descricao", headerName: "Descrição", width: 230 },
+    { 
+        field: "", headerName: "Opções", width: 230,  
+        renderCell: () => {
+            <button>✏️</button>
+        }
+    },
 ]
+
+//onCellClick
 
 const ProdutosListar = () => {
     const [ produtos, setProdutos ] = useState([])

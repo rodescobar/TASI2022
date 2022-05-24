@@ -27,7 +27,7 @@ const ProdutoNovo = () => {
             descricao
         }
 
-        await api.post( url, 
+        await api.post( '/app/produtos', 
                         data
                       )
                     .then( retorno => {

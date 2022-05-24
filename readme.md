@@ -94,7 +94,12 @@ npm install --save js-md5
 ## Aula 13 - 23/05/2022
 - Trabalhando com .ENV para *base url*
 - Criando API em axios para adição automatica de *headers*
+
+## Aula 14 - 30/05/2022
 - Trabalhando com CRUD de produtos ( Altear e Excluir )
+- Heroku
+- Vercel
+- Iniciar VPS
 
 
 # Backend utilizado em aula
