@@ -5,7 +5,7 @@
     "default": true,
     "sortNum": 10000,
     "created": "2022-05-09T22:42:01.926Z",
-    "modified": "2022-05-17T01:00:53.133Z",
+    "modified": "2022-05-31T00:43:08.778Z",
     "data": [
       {
         "name": "url",
@@ -13,7 +13,7 @@
       },
       {
         "name": "cliente",
-        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjoicm9kZXNjb2JhciIsImlhdCI6MTY1Mjc0OTQ0NywiZXhwIjoxNjUyODM1ODQ3fQ.W4TxY956J_EZ-agCn103kg_tX9i6kHUEtZdOlInu4gE"
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjoicm9kcmlnbyIsImlhdCI6MTY1Mzk1Nzk2NiwiZXhwIjoxNjU0MDQ0MzY2fQ.eaBA9wv0X4P9aIbTADY7MMy-4Ov-VUVXkrwRoTp3xLU"
       }
     ]
   }

@@ -15,7 +15,7 @@ import api from '../../service/apiaxios'
 
 const url = '/app/produtos'
 
-const ProdutoAlterar = () => {
+const ProdutoExcluir = () => {
     const recebido = useLocation()
 
     const [ id, setId ] = useState( recebido.state._id )
@@ -26,17 +26,9 @@ const ProdutoAlterar = () => {
 
     console.log( recebido.state )
 
-    const Alterar = async() => {
-        var data = {
-            id,
-            nome,
-            preco,
-            quantidade,
-            descricao
-        }
-
-        await api.put( '/app/produtos', 
-                        data
+    const Excluir = async() => {
+        await api.delete( '/app/produtos', 
+                        { data: { id } } //o id é a const que veio do listar
                       )
                     .then( retorno => {
                         if ( retorno.data.erro )
@@ -46,9 +38,9 @@ const ProdutoAlterar = () => {
                                 confirmButtonText: 'OK'
                             })
 
-                        if ( retorno.data._id ) {
+                        if ( retorno.data.deletedCount ) {
                             Swal.fire({
-                                title: "Produto alterado com sucesso",
+                                title: "Produto excluído com sucesso",
                                 icon: 'success',
                                 confirmButtonText: 'OK'
                             })
@@ -65,36 +57,36 @@ const ProdutoAlterar = () => {
             <TextField
                 variant='outlined'
                 label="Nome"
-                onChange={ (e) => setNome(e.target.value) }
+                disabled
                 value={ nome }
             />
             <TextField
                 variant='outlined'
                 label="Preço"
-                onChange={ (e) => setPreco(e.target.value) }
+                disabled
                 value={ preco }
             />
             <TextField
                 variant='outlined'
                 label="Quantidade"
-                onChange={ (e) => setQuantidade(e.target.value) }
+                disabled
                 value={ quantidade }
             />
             <TextField
                 variant='outlined'
                 label="Descrição"
-                onChange={ (e) => setDescricao(e.target.value) }
+                disabled
                 value={ descricao }
             />
             <Button 
                 color="primary"
                 variant="contained"
-                onClick={ () => Alterar() }
+                onClick={ () => Excluir() }
             >
-                Alterar Produto
+                Excluir Produto
             </Button>
         </Box>
     )
 }
 
-export default ProdutoAlterar
+export default ProdutoExcluir

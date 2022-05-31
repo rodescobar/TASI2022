@@ -9,6 +9,7 @@ import Registrar from './pages/Registrar'
 import ProdutosListar from './pages/produtos/listar'
 import ProdutoNovo from './pages/produtos/novo'
 import ProdutoAlterar from './pages/produtos/alterar'
+import ProdutoExcluir from './pages/produtos/exluir'
 
 const RotaPrivada = ({ Componente }) => {
 
@@ -27,6 +28,7 @@ const Rotas = () => {
                 <Route path="/admin/produtos" element={ <RotaPrivada Componente={ <ProdutosListar /> } /> } />
                 <Route path="/admin/produto/novo" element={ <RotaPrivada Componente={ <ProdutoNovo /> } /> } />
                 <Route path="/admin/produto/alterar" element={ <RotaPrivada Componente={ <ProdutoAlterar /> } /> } />
+                <Route path="/admin/produto/excluir" element={ <RotaPrivada Componente={ <ProdutoExcluir /> } /> } />
             </Routes>
         </div>
     )

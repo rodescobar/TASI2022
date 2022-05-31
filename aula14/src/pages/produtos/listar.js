@@ -15,13 +15,13 @@ import api from '../../service/apiaxios'
 
 const url = "/app/produtos"
 
-
-
 //onCellClick
 
 const ProdutosListar = () => {
     const [ produtos, setProdutos ] = useState([])
-    var navigate = useNavigate()
+
+    const navigate = useNavigate()
+
     //then.....     setProdutos( retorno.data )
     useEffect( () =>{
       const receberProdutos = async() => {
@@ -33,6 +33,19 @@ const ProdutosListar = () => {
 
       receberProdutos()
     },[])
+
+    const Carregar = ( valores, funcao ) => {
+        var url = "/admin/produto/alterar" //Rota
+
+        if ( funcao == 'E')
+            url = "/admin/produto/excluir" //Rota
+            
+        var dados = valores.row
+    
+        navigate(url,
+                { state: dados }
+            )
+    }
 
     const colunas = [
         { field: "_id", headerName: "", hide: true},
@@ -46,13 +59,14 @@ const ProdutosListar = () => {
                 return (
                     <div>
                         <button
-                            onClick={ () => { Alterar(cellValues) } }
-                            style={{ background: "transparent", border: "none" }}
+                            onClick={ () => { Carregar(cellValues, 'A') } }
+                            style={{ background: "transparent", border: "none", cursor: "pointer" }}
                         >
                             ✏️
                         </button>
                         <button 
-                            style={{ background: "transparent", border: "none" }}
+                            onClick={ () => { Carregar(cellValues, 'E') } }
+                            style={{ background: "transparent", border: "none", cursor: "pointer" }}
                         >
                             🗑️
                         </button>
@@ -60,17 +74,7 @@ const ProdutosListar = () => {
                 )
             }
         },
-    ]
-    
-    const Alterar = ( valores ) => {
-        var url = "/admin/produto/alterar" //Rota
-        var dados = valores.row
-    
-        navigate(url,
-                { state: dados }
-            )
-       
-    }
+    ]    
 
     return (
         <Box style={{ padding: "10px" }}>

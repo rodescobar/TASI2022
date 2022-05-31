@@ -89,7 +89,7 @@
     "method": "PUT",
     "sortNum": 30000,
     "created": "2022-05-09T23:22:08.917Z",
-    "modified": "2022-05-09T23:24:01.175Z",
+    "modified": "2022-05-31T00:13:44.955Z",
     "headers": [
       {
         "name": "Authorization",
@@ -99,7 +99,7 @@
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"id\": \"6279a037bc19a0721a7123cf\",\n    \"usuario\": \"rodrigo\",\n    \"nome\": \"HONDA CITY\",\n    \"quantidade\": 1,\n    \"preco\": 60000,\n    \"descricao\": \"BEGE COR DE ABOBORA\"\n  }",
+      "raw": "{\n    \"usuario\": \"rodrigo\",\n    \"nome\": \"HONDA CITY\",\n    \"quantidade\": 1,\n    \"preco\": 60000,\n    \"descricao\": \"BEGE COR DE ABOBORA\"\n  }",
       "form": []
     },
     "tests": []
@@ -113,17 +113,17 @@
     "method": "DELETE",
     "sortNum": 40000,
     "created": "2022-05-09T23:24:24.731Z",
-    "modified": "2022-05-09T23:25:09.262Z",
+    "modified": "2022-05-31T00:44:08.190Z",
     "headers": [
       {
         "name": "Authorization",
-        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjoicm9kcmlnbyIsImlhdCI6MTY1MjEzNzY0OSwiZXhwIjoxNjUyMjI0MDQ5fQ.dWqbx65h3-CCWWxcbprMpLRjfKirDLIzxiVqlpDpx4I"
+        "value": "{{cliente}}"
       }
     ],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"id\": \"6279a09dbc19a0721a7123d3\"\n}",
+      "raw": "{\n    \"id\": \"6279a037bc19a0721a7123cf\"\n}",
       "form": []
     },
     "tests": []
